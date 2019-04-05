@@ -1,0 +1,59 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+    background: #c7c3c3;
+  }
+
+  a.navbar-brand {
+    color: rgb(60, 179, 186);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1.display-4 {
+    color: rgb(60, 179, 186);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+nav, .navbar-default {
+    background-color: white;
+    border-color: #E7E7E7;
+}
+
+nav, .navbar-default .navbar-brand {
+    color: white;
+} 
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(60, 60, 60);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div.jumbotron {
+  color:rgb(60, 60, 60);
+  background-color: white;
+  position: relative;
+  top: 50px;
+  border: 3px solid white;
+  z-index: -1;
+}
+
+div.col-lg-8 {
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    border: 3px solid white;
+    z-index: -2;
+  }
+
+  p.media-body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
