@@ -20,9 +20,16 @@ nav, .navbar-default {
     border-color: #E7E7E7;
 }
 
-nav, .navbar-default .navbar-brand {
+nav, .navbar-default {
     color: white;
 } 
+
+.navbar-brand {
+  background:rgb(11, 129, 138);
+  color: white;
+  font-size: 25px;
+  padding: 20px 20px;
+}
 
 li {
   float: left;

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <title>Weather Study</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="index.html">Latitude</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="Plots">Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="Max_Temperature.html">Max Temperature</a></li>
+                <li><a href="Humidity.html">Humidity</a></li>
+                <li><a href="Cloudiness.html">Cloudiness</a></li>
+                <li><a href="Wind_Speed.html">Wind Speed</a></li>
+              </ul>
+            <li><a href="Comparison.html">Comparison</a></li>
+            <li><a href="Data.html">Data</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+			    <div class="jumbotron">
+				  <h1 class="display-10">Comparison: Max Temperature vs. X</h1>
+				  <hr class="my-10">
+			    <div class="media">
+			    <div class="media-top-left">
+				  <img src="https://github.com/tgoldma/goldman.github.io/blob/master/Fig2.png?raw=true" class="media-object" height="600" width="600">
+			  </div>
+			  <div class="media-body">
+				<br>
+				<p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered. </p>
+			  </div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
